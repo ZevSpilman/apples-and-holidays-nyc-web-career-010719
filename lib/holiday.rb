@@ -54,6 +54,7 @@ def all_winter_holiday_supplies(holiday_hash)
     key.each do |newval|
       newArr.push(newval)
 end
+end
 return newArr
 end
 def all_supplies_in_holidays(holiday_hash)
